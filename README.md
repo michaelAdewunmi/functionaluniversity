@@ -1,7 +1,16 @@
 # Functional Fictional University WordPress Theme
-*This is more than a wordPress theme. It is an application built off wordPress for a functional fictional university :grin:*
+*This is more than a WordPress theme. It is an application built off wordPress for a functional fictional university :grin:. It involves functionalities like seeing the various locations of the university through google maps, seeing the universities professors, the upcoming and past events, e.t.c*
 
 > Ps: The link to the demo is http://thefunctionaluniversity.cf but please read what you can do with the application below before going to check out the demo link.
+
+## This WordPress application employs the HEAVY use of
+* WordPress custom post types
+* WordPress custom Fields
+* Relating various post types and fields
+* WordPress custom query
+* The user roles and permission with the help of members plugin
+* The Awesome WordPress REST API
+
 
 ### In this application, you can do the following;
 
@@ -10,9 +19,9 @@
 > username: testuser
 > password: &So$Le3MyD*fq6^WhmcF8Q1n
 
-*2. View the notes you've written anytime you login. You won't have to see the almighty wordpress admin dashboard that could get you overwhelmed. (Isn't that lovely! :grinning:)*.
+*2. View the notes you've written anytime you login. You won't have to see the almighty WordPress admin dashboard that could get you overwhelmed. (Isn't that lovely! :grinning:)*.
 
-> P:S BUG! BUG!! There was an issue with wordpress 5.1 redirecting private posts to the homepage. This was noticed after I updated my wordpress core to v5.1. This means you might not be able to navigate to the notes link (for now). However, the site works well in earlier version of wordpress. I am looking to clear this issue ASAP. Please bear with me.
+> P:S BUG! BUG!! There was an issue with WordPress 5.1 redirecting private posts to the homepage. This was noticed after I updated my WordPress core to v5.1. This means you might not be able to navigate to the notes link (for now). However, the site works well in earlier version of WordPress. I am looking to clear this issue ASAP. Please bear with me.
 
 Other functionalities of the app include;
 
@@ -23,22 +32,13 @@ Other functionalities of the app include;
 
 *5. View the past and upcoming events that are to take place in the university.*
 
-*6. Make custom search (beyond the wordpress official search box) to see professors, events, locations, programs and blog posts related to your search term.. eg words like Arts, Physics, e.t.c*
+*6. Make custom search (beyond the WordPress official search box) to see professors, events, locations, programs and blog posts related to your search term.. eg words like Arts, Physics, e.t.c*
 
 > Hmmmmm . I'll think of more functionalities the app offers. But while I'm doing that, feel free to check out and try all of these functionalities by creating an account and using the app :thumbsup:
 
 ======
 
 #### The link to the demo is http://thefunctionaluniversity.cf
-
-
-## This WordPress application employs the HEAVY use of
-* Wordpress custom post types
-* Wordpress custom Fields
-* Relating various post types and fields
-* Wordpress custom query
-* The user roles and permission with the help of members plugin
-* The Awesome WordPress REST API
 
 ## Theme Dependencies (Libraries Used)
 * [JQuery](https://jquery.com) - The Fast, small and feature rich javascript library
