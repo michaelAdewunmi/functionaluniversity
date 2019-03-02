@@ -1,0 +1,50 @@
+/*
+Theme Name: Fictional University Theme
+Theme URI: https://github.com/michaelAdewunmi/functionaluniversity
+Author: Michael Osikoya
+Author URI: https://github.com/michaelAdewunmi
+Description: An Awesome theme for a functional Fictional University
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: fictionaluniversity
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+/* 3rd party packages */
+@import "normalize.css";
+@import "slick-carousel/slick/slick.css";
+
+/* SASS and Global'ish Stuff */
+@import "base/variables";
+@import "base/baseline";
+@import "base/utility-classes";
+
+/* BEM Blocks */
+@import "modules/shame";
+@import "modules/login";
+@import "modules/btn";
+@import "modules/my-notes";
+@import "modules/site-header";
+@import "modules/site-footer";
+@import "modules/main-navigation";
+@import "modules/page-banner";
+@import "modules/hero-slider";
+@import "modules/search-overlay";
+@import "modules/professor-card";
+@import "modules/headline";
+@import "modules/generic-content";
+@import "modules/full-width-split";
+@import "modules/event-summary";
+@import "modules/page-links";
+@import "modules/acf-map";
+@import "modules/link-list";
+@import "modules/metabox";
+@import "modules/post-item";
