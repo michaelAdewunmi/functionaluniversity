@@ -41,7 +41,7 @@
     add_action('after_setup_theme', 'fictionaluniversity_features');
 
     function fictional_univeristy_styles_and_scripts() {
-        wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyB21jioCxV7nCnkWRNiiptDIp0QsgifJFw&libraries=places', NULL, 1.0, true);
+        wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=myapikey&libraries=places', NULL, 1.0, true);
         wp_enqueue_script('fictionaluniversity_main_script', get_theme_file_uri('js/scripts-bundled.js'), NULL, microtime(), true);
         wp_enqueue_style('fontawesome', get_stylesheet_directory_uri() . '/lib/fontawesome/css/all.css');
         wp_enqueue_style('fictionaluniversity_main_stylesheet', get_stylesheet_uri());
@@ -80,7 +80,7 @@
 
 
     function fiction_university_map_api_key($api) {
-        $api['key'] = 'AIzaSyB21jioCxV7nCnkWRNiiptDIp0QsgifJFw';
+        $api['key'] = 'myapikey';
         return $api;
     }
     add_filter('acf/fields/google_map/api', 'fiction_university_map_api_key');
