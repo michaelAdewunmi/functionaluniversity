@@ -1,7 +1,7 @@
 # Functional Fictional University WordPress Theme
 *This is more than a wordPress theme. It is an application built off wordPress for a functional fictional university :grin:*
 
-> Ps: Please read what you can do with the application below before going to check out the demo link.
+> Ps: The link to the demo is http://thefunctionaluniversity.cf but please read what you can do with the application below before going to check out the demo link.
 
 ### In this application, you can do the following;
 
